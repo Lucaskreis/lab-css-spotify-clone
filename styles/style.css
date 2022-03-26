@@ -2,7 +2,155 @@
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: #00B172 
 White: #FFF
-
 */
+*{
+    margin: 0;
+    font-family: sans-serif ;
+}
+
+header {
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+   
+
+}
+header img {
+    height: 65px;
+    width: 220px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    font-size: 17px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 1250px;
+}
+#first {
+    background-image: url("../images/landing.jpg");
+    background-size: 1510px 800px;
+    height: 800px ;
+    width: 1510px;
+    color: #FFF;
+}
+#first div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 600px ;
+    width: 1510px;
+
+}
+
+h1 {
+    font-size: 80px;
+    margin: 50px;
+   
+}
+#first p{
+    font-size: 30px;
+    width: 700px;
+    font-weight: lighter;
+    text-align: center;
+}
+#second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+#second h3{
+    font-size: 35px;
+    margin: 70px;
+    text-underline-offset: 12px;
+    text-decoration: underline #00B172 4px ;
+}
+#second img {
+    height: 120px;
+    width: 140px;
+}
+.whatsOnSpotify{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.whatsOnSpotify div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+.whatsOnSpotify h4{
+    margin: 25px 50px;
+    color:#00B172;
+    font-size: 25px;
+}
+.whatsOnSpotify P{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+
+}
+#third{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    background-color: #00B172;
+   
+}
+.background-logo {
+    background-image: url(../images/spotify-icon-white.png) ;
+    background-size: 125px 125px;
+    height: 125px;
+    width: 125px;
+    position: relative;
+    top: 140px
+
+    
+}
+#third h3{
+    margin: 100px 120px 20px 120px;
+    color: #FFF;
+    font-size: 35px;
+    text-decoration: underline #FFF;
+    text-underline-offset: 12px;  
+     
+
+}
+
+#third article{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 120px;
+    color: #FFF;
+
+}
+.conteudo{
+    margin: 35px 0px;
+    width: 310px;
+    font-size: 20px;
+    line-height: 32px;
+    
+}
+.conteudo h4{
+    margin: 0px 0px 20px 0px;
+    font-size: 32px;
+}
+
+#third img {
+    height: 580px;
+    width: 340px;
+    position: relative;
+    bottom: 60px
+   
+}
